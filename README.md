@@ -1,2 +1,2 @@
-# LibTour
-UIUC Main Library tour source code
+# LibraryVR
+Welcome to the virtual tour of Main Library at the University of Illinois.
