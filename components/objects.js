@@ -70,6 +70,13 @@ var img_0010 = {img:"/assets/imgs/west_one/0010.jpg"};
 var img_0011 = {img:"/assets/imgs/west_one/0011.jpg"};
 var img_0012 = {img:"/assets/imgs/west_one/0012.jpg"};
 
+var img_08015 = {img:"/assets/imgs/west_two/08015.jpg"};
+var img_0803 = {img:"/assets/imgs/west_two/0803.jpg"};
+var img_08045 = {img:"/assets/imgs/west_two/08045.jpg"};
+var img_08075 = {img:"/assets/imgs/west_two/08075.jpg"};
+var img_0809 = {img:"/assets/imgs/west_two/0809.jpg"};
+var img_08105 = {img:"/assets/imgs/west_two/08105.jpg"};
+
 
 // Link each image object to its right, left, forward, and backward destination
 //south
@@ -115,7 +122,7 @@ img_0700.forward = null;
 
 img_0800.right = img_0700;
 img_0800.left = img_0900;
-img_0800.backward = null;
+img_0800.backward = img_08015;
 img_0800.forward = null;
 
 img_0900.right = img_0800;
@@ -313,7 +320,7 @@ img_0712.forward = null;
 img_0812.right = img_0712;
 img_0812.left = img_0912;
 img_0812.backward = null;
-img_0812.forward = null;
+img_0812.forward = img_08105;
 
 img_0912.right = img_0812;
 img_0912.left = img_1012;
@@ -410,7 +417,47 @@ img_2712.left = null;
 img_2712.backward = null;
 img_2712.forward = null;
 
-//
+//west_two
+img_0800.right = img_0700;
+img_0800.left = img_0900;
+img_0800.backward = img_08015;
+img_0800.forward = null;
+
+img_08015.right = null;
+img_08015.left = null;
+img_08015.backward = img_0803;
+img_08015.forward = img_0800;
+
+img_0803.right = null;
+img_0803.left = null;
+img_0803.backward = img_08045;
+img_0803.forward = img_08015;
+
+img_08045.right = null;
+img_08045.left = null;
+img_08045.backward = img_0803;
+img_08045.forward = img_0806;
+
+img_08075.right = null;
+img_08075.left = null;
+img_08075.backward = img_0809;
+img_08075.forward = img_0806;
+
+img_0809.right = null;
+img_0809.left = null;
+img_0809.backward = img_08105;
+img_0809.forward = img_08075;
+
+img_08105.right = null;
+img_08105.left = null;
+img_08105.backward = img_0812;
+img_08105.forward = img_0809;
+
+//middle
+img_0806.right = null;
+img_0806.left = null;
+img_0806.backward = img_08075;
+img_0806.forward = img_08045;
 
 
 // Set an image to be the starting image
