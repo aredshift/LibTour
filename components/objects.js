@@ -77,6 +77,8 @@ var img_08075 = {img:"/assets/imgs/west_two/08075.jpg"};
 var img_0809 = {img:"/assets/imgs/west_two/0809.jpg"};
 var img_08105 = {img:"/assets/imgs/west_two/08105.jpg"};
 
+var img_0806 = {img:"/assets/imgs/west_two/0809.jpg"}; //To be corrected
+
 
 // Link each image object to its right, left, forward, and backward destination
 //south
