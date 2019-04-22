@@ -77,7 +77,39 @@ var img_08075 = {img:"/assets/imgs/west_two/08075.jpg"};
 var img_0809 = {img:"/assets/imgs/west_two/0809.jpg"};
 var img_08105 = {img:"/assets/imgs/west_two/08105.jpg"};
 
-var img_0806 = {img:"/assets/imgs/west_two/0809.jpg"}; //To be corrected
+var img_18015 = {img:"/assets/imgs/west_three/18015.jpg"};
+var img_1803 = {img:"/assets/imgs/west_three/1803.jpg"};
+var img_18045 = {img:"/assets/imgs/west_three/18045.jpg"};
+var img_18075 = {img:"/assets/imgs/west_three/18075.jpg"};
+var img_1809 = {img:"/assets/imgs/west_three/1809.jpg"};
+var img_18105 = {img:"/assets/imgs/west_three/18105.jpg"};
+
+var img_0106 = {img:"/assets/imgs/middle_passage_and_horizontal/0106.jpg"};
+var img_0206 = {img:"/assets/imgs/middle_passage_and_horizontal/0206.jpg"};
+var img_0306 = {img:"/assets/imgs/middle_passage_and_horizontal/0306.jpg"};
+var img_0406 = {img:"/assets/imgs/middle_passage_and_horizontal/0406.jpg"};
+var img_0606 = {img:"/assets/imgs/middle_passage_and_horizontal/0606.jpg"};
+var img_0706 = {img:"/assets/imgs/middle_passage_and_horizontal/0706.jpg"};
+var img_0806 = {img:"/assets/imgs/middle_passage_and_horizontal/0806.jpg"};
+var img_0906 = {img:"/assets/imgs/middle_passage_and_horizontal/0906.jpg"};
+var img_1006 = {img:"/assets/imgs/middle_passage_and_horizontal/1006.jpg"};
+var img_1106 = {img:"/assets/imgs/middle_passage_and_horizontal/1106.jpg"};
+var img_1206 = {img:"/assets/imgs/middle_passage_and_horizontal/1206.jpg"};
+var img_1306 = {img:"/assets/imgs/middle_passage_and_horizontal/1306.jpg"};
+var img_1406 = {img:"/assets/imgs/middle_passage_and_horizontal/1406.jpg"};
+var img_1506 = {img:"/assets/imgs/middle_passage_and_horizontal/1506.jpg"};
+var img_1606 = {img:"/assets/imgs/middle_passage_and_horizontal/1606.jpg"};
+var img_1706 = {img:"/assets/imgs/middle_passage_and_horizontal/1706.jpg"};
+var img_1806 = {img:"/assets/imgs/middle_passage_and_horizontal/1806.jpg"};
+var img_1906 = {img:"/assets/imgs/middle_passage_and_horizontal/1906.jpg"};
+var img_2006 = {img:"/assets/imgs/middle_passage_and_horizontal/2006.jpg"};
+var img_2106 = {img:"/assets/imgs/middle_passage_and_horizontal/2106.jpg"};
+var img_2206 = {img:"/assets/imgs/middle_passage_and_horizontal/2206.jpg"};
+var img_2306 = {img:"/assets/imgs/middle_passage_and_horizontal/2306.jpg"};
+var img_2406 = {img:"/assets/imgs/middle_passage_and_horizontal/2406.jpg"};
+var img_2506 = {img:"/assets/imgs/middle_passage_and_horizontal/2506.jpg"};
+var img_2606 = {img:"/assets/imgs/middle_passage_and_horizontal/2606.jpg"};
+var img_2706 = {img:"/assets/imgs/middle_passage_and_horizontal/2706.jpg"};
 
 
 // Link each image object to its right, left, forward, and backward destination
@@ -174,7 +206,7 @@ img_1700.forward = null;
 
 img_1800.right = img_1700;
 img_1800.left = img_1900;
-img_1800.backward = null;
+img_1800.backward = img_18015;
 img_1800.forward = null;
 
 img_1900.right = img_1800;
@@ -249,7 +281,7 @@ img_0005.backward = img_0006;
 img_0005.forward = img_0004;
 
 img_0006.right = null;
-img_0006.left = null;
+img_0006.left = img_0106;
 img_0006.backward = img_0007;
 img_0006.forward = img_0005;
 
@@ -372,7 +404,7 @@ img_1712.forward = null;
 img_1812.right = img_1712;
 img_1812.left = img_1912;
 img_1812.backward = null;
-img_1812.forward = null;
+img_1812.forward = img_18105;
 
 img_1912.right = img_1812;
 img_1912.left = img_2012;
@@ -420,11 +452,6 @@ img_2712.backward = null;
 img_2712.forward = null;
 
 //west_two
-img_0800.right = img_0700;
-img_0800.left = img_0900;
-img_0800.backward = img_08015;
-img_0800.forward = null;
-
 img_08015.right = null;
 img_08015.left = null;
 img_08015.backward = img_0803;
@@ -455,12 +482,167 @@ img_08105.left = null;
 img_08105.backward = img_0812;
 img_08105.forward = img_0809;
 
+//west_three
+img_18015.right = null;
+img_18015.left = null;
+img_18015.backward = img_1803;
+img_18015.forward = img_1800;
+
+img_1803.right = null;
+img_1803.left = null;
+img_1803.backward = img_18045;
+img_1803.forward = img_18015;
+
+img_18045.right = null;
+img_18045.left = null;
+img_18045.backward = img_1803;
+img_18045.forward = img_1806;
+
+img_18075.right = null;
+img_18075.left = null;
+img_18075.backward = img_1809;
+img_18075.forward = img_1806;
+
+img_1809.right = null;
+img_1809.left = null;
+img_1809.backward = img_18105;
+img_1809.forward = img_18075;
+
+img_18105.right = null;
+img_18105.left = null;
+img_18105.backward = img_1812;
+img_18105.forward = img_1809;
+
 //middle
-img_0806.right = null;
-img_0806.left = null;
+img_0106.right = img_0006;
+img_0106.left = img_0206;
+img_0106.backward = null;
+img_0106.forward = null;
+
+img_0206.right = img_0106;
+img_0206.left = img_0306;
+img_0206.backward = null;
+img_0206.forward = null;
+
+img_0306.right = img_0206;
+img_0306.left = img_0406;
+img_0306.backward = null;
+img_0306.forward = null;
+
+img_0406.right = img_0306;
+img_0406.left = img_0606;
+img_0406.backward = null;
+img_0406.forward = null;
+
+img_0606.right = img_0406;
+img_0606.left = img_0706;
+img_0606.backward = null;
+img_0606.forward = null;
+
+img_0706.right = img_0606;
+img_0706.left = img_0806;
+img_0706.backward = null;
+img_0706.forward = null;
+
+img_0806.right = img_0706;
+img_0806.left = img_0906;
 img_0806.backward = img_08075;
 img_0806.forward = img_08045;
 
+img_0906.right = img_0806;
+img_0906.left = img_1006;
+img_0906.backward = null;
+img_0906.forward = null;
+
+img_1006.right = img_0906;
+img_1006.left = img_1106;
+img_1006.backward = null;
+img_1006.forward = null;
+
+img_1106.right = img_1006;
+img_1106.left = img_1206;
+img_1106.backward = null;
+img_1106.forward = null;
+
+img_1206.right = img_1106;
+img_1206.left = img_1306;
+img_1206.backward = null;
+img_1206.forward = null;
+
+img_1306.right = img_1206;
+img_1306.left = img_1406;
+img_1306.backward = null;
+img_1306.forward = null;
+
+img_1406.right = img_1306;
+img_1406.left = img_1506;
+img_1406.backward = null;
+img_1406.forward = null;
+
+img_1506.right = img_1406;
+img_1506.left = img_1606;
+img_1506.backward = null;
+img_1506.forward = null;
+
+img_1606.right = img_1506;
+img_1606.left = img_1706;
+img_1606.backward = null;
+img_1606.forward = null;
+
+img_1706.right = img_1606;
+img_1706.left = img_1806;
+img_1706.backward = null;
+img_1706.forward = null;
+
+img_1806.right = img_1706;
+img_1806.left = img_1906;
+img_1806.backward = img_18075;
+img_1806.forward = img_18045;
+
+img_1906.right = img_1806;
+img_1906.left = img_2006;
+img_1906.backward = null;
+img_1906.forward = null;
+
+img_2006.right = img_1906;
+img_2006.left = img_2106;
+img_2006.backward = null;
+img_2006.forward = null;
+
+img_2106.right = img_2006;
+img_2106.left = img_2206;
+img_2106.backward = null;
+img_2106.forward = null;
+
+img_2206.right = img_2106;
+img_2206.left = img_2306;
+img_2206.backward = null;
+img_2206.forward = null;
+
+img_2306.right = img_2206;
+img_2306.left = img_2406;
+img_2306.backward = null;
+img_2306.forward = null;
+
+img_2406.right = img_2306;
+img_2406.left = img_2506;
+img_2406.backward = null;
+img_2406.forward = null;
+
+img_2506.right = img_2406;
+img_2506.left = img_2606;
+img_2506.backward = null;
+img_2506.forward = null;
+
+img_2606.right = img_2506;
+img_2606.left = img_2706;
+img_2606.backward = null;
+img_2606.forward = null;
+
+img_2706.right = img_2606;
+img_2706.left = null;
+img_2706.backward = null;
+img_2706.forward = null;
 
 // Set an image to be the starting image
 var start = img_0000;
