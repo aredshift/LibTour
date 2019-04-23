@@ -111,6 +111,70 @@ var img_2506 = {img:"/assets/imgs/middle_passage_and_horizontal/2506.jpg"};
 var img_2606 = {img:"/assets/imgs/middle_passage_and_horizontal/2606.jpg"};
 var img_2706 = {img:"/assets/imgs/middle_passage_and_horizontal/2706.jpg"};
 
+var img_e05 = {img:"/assets/imgs/east/5.jpg"};
+var img_e06 = {img:"/assets/imgs/east/6.jpg"};
+var img_e07 = {img:"/assets/imgs/east/7.jpg"};
+var img_e08 = {img:"/assets/imgs/east/8.jpg"};
+var img_e09 = {img:"/assets/imgs/east/9.jpg"};
+var img_e10= {img:"/assets/imgs/east/10.jpg"};
+var img_e11 = {img:"/assets/imgs/east/11.jpg"};
+var img_e12 = {img:"/assets/imgs/east/12.jpg"};
+var img_e13 = {img:"/assets/imgs/east/13.jpg"};
+var img_e14 = {img:"/assets/imgs/east/14.jpg"};
+var img_e15 = {img:"/assets/imgs/east/15.jpg"};
+var img_e16 = {img:"/assets/imgs/east/16.jpg"};
+var img_e17 = {img:"/assets/imgs/east/17.jpg"};
+var img_e18 = {img:"/assets/imgs/east/18.jpg"};
+var img_e19 = {img:"/assets/imgs/east/19.jpg"};
+var img_e20 = {img:"/assets/imgs/east/20.jpg"};
+var img_e21 = {img:"/assets/imgs/east/21.jpg"};
+var img_e22 = {img:"/assets/imgs/east/22.jpg"};
+var img_e23 = {img:"/assets/imgs/east/23.jpg"};
+var img_e24 = {img:"/assets/imgs/east/24.jpg"};
+var img_e25 = {img:"/assets/imgs/east/25.jpg"};
+var img_e26 = {img:"/assets/imgs/east/26.jpg"};
+var img_e27 = {img:"/assets/imgs/east/27.jpg"};
+var img_e28 = {img:"/assets/imgs/east/28.jpg"};
+var img_e29 = {img:"/assets/imgs/east/29.jpg"};
+var img_e30 = {img:"/assets/imgs/east/30.jpg"};
+var img_e31 = {img:"/assets/imgs/east/31.jpg"};
+var img_e32 = {img:"/assets/imgs/east/32.jpg"};
+var img_e33 = {img:"/assets/imgs/east/33.jpg"};
+var img_e34 = {img:"/assets/imgs/east/34.jpg"};
+var img_e35 = {img:"/assets/imgs/east/35.jpg"};
+var img_e36 = {img:"/assets/imgs/east/36.jpg"};
+var img_e37 = {img:"/assets/imgs/east/37.jpg"};
+var img_e38 = {img:"/assets/imgs/east/38.jpg"};
+var img_e39 = {img:"/assets/imgs/east/39.jpg"};
+var img_e40 = {img:"/assets/imgs/east/40.jpg"};
+var img_e41 = {img:"/assets/imgs/east/41.jpg"};
+var img_e42 = {img:"/assets/imgs/east/42.jpg"};
+var img_e43 = {img:"/assets/imgs/east/43.jpg"};
+var img_e44 = {img:"/assets/imgs/east/44.jpg"};
+var img_e45 = {img:"/assets/imgs/east/44.jpg"}; //to be corrected!!!
+var img_e46 = {img:"/assets/imgs/east/46.jpg"};
+var img_e47 = {img:"/assets/imgs/east/47.jpg"};
+var img_e48 = {img:"/assets/imgs/east/48.jpg"};
+var img_e49 = {img:"/assets/imgs/east/49.jpg"};
+var img_e50 = {img:"/assets/imgs/east/50.jpg"};
+var img_e51 = {img:"/assets/imgs/east/51.jpg"};
+var img_e52 = {img:"/assets/imgs/east/52.jpg"};
+var img_e53 = {img:"/assets/imgs/east/53.jpg"};
+var img_e54 = {img:"/assets/imgs/east/54.jpg"};
+var img_e55 = {img:"/assets/imgs/east/55.jpg"};
+var img_e56 = {img:"/assets/imgs/east/56.jpg"};
+var img_e57 = {img:"/assets/imgs/east/57.jpg"};
+var img_e58 = {img:"/assets/imgs/east/58.jpg"};
+var img_e59 = {img:"/assets/imgs/east/59.jpg"};
+var img_e60 = {img:"/assets/imgs/east/60.jpg"};
+var img_e61 = {img:"/assets/imgs/east/61.jpg"};
+
+//chamber
+var img_c01 = {img:"/assets/imgs/chamber/1.jpg"};
+var img_c02 = {img:"/assets/imgs/chamber/2.jpg"};
+var img_c03 = {img:"/assets/imgs/chamber/3.jpg"};
+var img_c04 = {img:"/assets/imgs/east/4.jpg"};
+
 
 // Link each image object to its right, left, forward, and backward destination
 //south
@@ -447,7 +511,7 @@ img_2612.backward = null;
 img_2612.forward = null;
 
 img_2712.right = img_2612;
-img_2712.left = null;
+img_2712.left = img_e33;
 img_2712.backward = null;
 img_2712.forward = null;
 
@@ -643,6 +707,313 @@ img_2706.right = img_2606;
 img_2706.left = null;
 img_2706.backward = null;
 img_2706.forward = null;
+
+//east
+img_e05.right = null;
+img_e05.left = null;
+img_e05.backward = img_e06;
+img_e05.forward = img_c04;
+
+img_e06.right = null;
+img_e06.left = img_e61;
+img_e06.backward = img_e07;
+img_e06.forward = img_e05;
+
+img_e07.right = null;
+img_e07.left = null;
+img_e07.backward = img_e08;
+img_e07.forward = img_e06;
+
+img_e08.right = null;
+img_e08.left = null;
+img_e08.backward = img_e09;
+img_e08.forward = img_e07;
+
+img_e09.right = null;
+img_e09.left = null;
+img_e09.backward = img_e10;
+img_e09.forward = img_e08;
+
+img_e10.right = null;
+img_e10.left = null;
+img_e10.backward = img_e11;
+img_e10.forward = img_e09;
+
+img_e11.right = null;
+img_e11.left = img_e28;
+img_e11.backward = img_e12;
+img_e11.forward = img_e10;
+
+img_e12.right = null;
+img_e12.left = null;
+img_e12.backward = img_e13;
+img_e12.forward = img_e11;
+
+img_e13.right = null;
+img_e13.left = null;
+img_e13.backward = img_e14;
+img_e13.forward = img_e12;
+
+img_e14.right = null;
+img_e14.left = null;
+img_e14.backward = img_e15;
+img_e14.forward = img_e13;
+
+img_e15.right = null;
+img_e15.left = null;
+img_e15.backward = img_e16;
+img_e15.forward = img_e14;
+
+img_e16.right = null;
+img_e16.left = null;
+img_e16.backward = img_e17;
+img_e16.forward = img_e15;
+
+img_e17.right = null;
+img_e17.left = null;
+img_e17.backward = img_e18;
+img_e17.forward = img_e16;
+
+img_e18.right = null;
+img_e18.left = null;
+img_e18.backward = img_e19;
+img_e18.forward = img_e17;
+
+img_e19.right = null;
+img_e19.left = null;
+img_e19.backward = img_e20;
+img_e19.forward = img_e18;
+
+img_e20.right = null;
+img_e20.left = null;
+img_e20.backward = img_e21;
+img_e20.forward = img_e19;
+
+img_e21.right = null;
+img_e21.left = img_e29;
+img_e21.backward = img_e22;
+img_e21.forward = img_e20;
+
+img_e22.right = null;
+img_e22.left = null;
+img_e22.backward = img_e23;
+img_e22.forward = img_e21;
+
+img_e23.right = null;
+img_e23.left = null;
+img_e23.backward = img_e24;
+img_e23.forward = img_e22;
+
+img_e24.right = null;
+img_e24.left = null;
+img_e24.backward = img_e25;
+img_e24.forward = img_e23;
+
+img_e25.right = null;
+img_e25.left = null;
+img_e25.backward = img_e26;
+img_e25.forward = img_e24;
+
+img_e26.right = null;
+img_e26.left = img_e31;
+img_e26.backward = img_e27;
+img_e26.forward = img_e25;
+
+img_e27.right = null;
+img_e27.left = null;
+img_e27.backward = null;
+img_e27.forward = img_e26;
+
+img_e28.right = img_e11;
+img_e28.left = null;
+img_e28.backward = null;
+img_e28.forward = null;
+
+img_e29.right = img_e21;
+img_e29.left = null;
+img_e29.backward = img_e30;
+img_e29.forward = null;
+
+img_e30.right = null;
+img_e30.left = null;
+img_e30.backward = img_e31;
+img_e30.forward = img_e29;
+
+img_e31.right = img_e26;
+img_e31.left = null;
+img_e31.backward = null;
+img_e31.forward = img_e30;
+
+img_e32.right = img_e33;
+img_e32.left = img_e26;
+img_e32.backward = null;
+img_e32.forward = null;
+
+img_e33.right = img_2712;
+img_e33.left = img_e32;
+img_e33.backward = null;
+img_e33.forward = img_e34;
+
+img_e34.right = null;
+img_e34.left = null;
+img_e34.backward = img_e33;
+img_e34.forward = img_e35;
+
+img_e35.right = null;
+img_e35.left = null;
+img_e35.backward = img_e34;
+img_e35.forward = img_e36;
+
+img_e36.right = null;
+img_e36.left = null;
+img_e36.backward = img_e35;
+img_e36.forward = img_e37;
+
+img_e37.right = null;
+img_e37.left = null;
+img_e37.backward = img_e36;
+img_e37.forward = img_e38;
+
+img_e38.right = img_e39;
+img_e38.left = img_e21;
+img_e38.backward = null;
+img_e38.forward = null;
+
+img_e39.right = null;
+img_e39.left = img_e38;
+img_e39.backward = img_e37;
+img_e39.forward = img_e40;
+
+img_e40.right = null;
+img_e40.left = null;
+img_e40.backward = img_e39;
+img_e40.forward = img_e41;
+
+img_e41.right = null;
+img_e41.left = img_e29;
+img_e41.backward = img_e40;
+img_e41.forward = img_e42;
+
+img_e42.right = null;
+img_e42.left = null;
+img_e42.backward = img_e41;
+img_e42.forward = img_e42;
+
+img_e43.right = null;
+img_e43.left = null;
+img_e43.backward = img_e42;
+img_e43.forward = img_e45;
+
+img_e44.right = img_e45;
+img_e44.left = img_e16;
+img_e44.backward = null;
+img_e44.forward = null;
+
+img_e45.right = img_2706;
+img_e45.left = img_e44;
+img_e45.backward = img_e43;
+img_e45.forward = img_e46;
+
+img_e46.right = null;
+img_e46.left = null;
+img_e46.backward = img_e45;
+img_e46.forward = img_e47;
+
+img_e47.right = null;
+img_e47.left = null;
+img_e47.backward = img_e46;
+img_e47.forward = img_e48;
+
+img_e48.right = null;
+img_e48.left = null;
+img_e48.backward = img_e47;
+img_e48.forward = img_e49;
+
+img_e49.right = null;
+img_e49.left = null;
+img_e49.backward = img_e48;
+img_e49.forward = img_e51;
+
+img_e50.right = img_e51;
+img_e50.left = img_e11;
+img_e50.backward = null;
+img_e50.forward = null;
+
+img_e51.right = null;
+img_e51.left = img_e50;
+img_e51.backward = img_e49;
+img_e51.forward = img_e52;
+
+img_e52.right = null;
+img_e52.left = null;
+img_e52.backward = img_e51;
+img_e52.forward = img_e53;
+
+img_e53.right = null;
+img_e53.left = null;
+img_e53.backward = img_e52;
+img_e53.forward = img_e54;
+
+img_e54.right = null;
+img_e54.left = null;
+img_e54.backward = img_e53;
+img_e54.forward = img_e55;
+
+img_e55.right = null;
+img_e55.left = null;
+img_e55.backward = img_e54;
+img_e55.forward = img_e57;
+
+img_e56.right = img_e57;
+img_e56.left = img_e06;
+img_e56.backward = null;
+img_e56.forward = null;
+
+img_e57.right = img_2700;
+img_e57.left = img_e50;
+img_e57.backward = img_e55;
+img_e57.forward = null;
+
+img_e59.right = img_e16;
+img_e59.left = null;
+img_e59.backward = null;
+img_e59.forward = img_e60;
+
+img_e60.right = null;
+img_e60.left = null;
+img_e60.backward = img_e59;
+img_e60.forward = null;
+
+img_e61.right = img_e06;
+img_e61.left = null;
+img_e61.backward = null;
+img_e61.forward = null;
+
+//chamber
+img_c01.right = null;
+img_c01.left = null;
+img_c01.backward = img_c02;
+img_c01.forward = null;
+
+img_c02.right = null;
+img_c02.left = null;
+img_c02.backward = img_c03;
+img_c02.forward = img_c01;
+
+img_c03.right = null;
+img_c03.left = null;
+img_c03.backward = img_c04;
+img_c03.forward = img_c02;
+
+img_c04.right = null;
+img_c04.left = img_e58;
+img_c04.backward = img_e05;
+img_c04.forward = img_c03;
+
+img_e58.right = img_c04;
+img_e58.left = null;
+img_e58.backward = null;
+img_e58.forward = null;
 
 // Set an image to be the starting image
 var start = img_0000;
