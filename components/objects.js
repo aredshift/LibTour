@@ -152,7 +152,7 @@ var img_e41 = {img:"/LibTour/assets/imgs/east/41.jpg"};
 var img_e42 = {img:"/LibTour/assets/imgs/east/42.jpg"};
 var img_e43 = {img:"/LibTour/assets/imgs/east/43.jpg"};
 var img_e44 = {img:"/LibTour/assets/imgs/east/44.jpg"};
-var img_e45 = {img:"/LibTour/assets/imgs/east/45.jpg"}; //to be corrected!!!
+var img_e45 = {img:"/LibTour/assets/imgs/east/45.jpg"};
 var img_e46 = {img:"/LibTour/assets/imgs/east/46.jpg"};
 var img_e47 = {img:"/LibTour/assets/imgs/east/47.jpg"};
 var img_e48 = {img:"/LibTour/assets/imgs/east/48.jpg"};
@@ -174,7 +174,7 @@ var img_e61 = {img:"/LibTour/assets/imgs/east/61.jpg"};
 var img_c01 = {img:"/LibTour/assets/imgs/chamber/1.jpg"};
 var img_c02 = {img:"/LibTour/assets/imgs/chamber/2.jpg"};
 var img_c03 = {img:"/LibTour/assets/imgs/chamber/3.jpg"};
-var img_c04 = {img:"/LibTour/assets/imgs/east/4.jpg"};
+var img_c04 = {img:"/LibTour/assets/imgs/chamber/4.jpg"};
 
 
 // Link each image object to its right, left, forward, and backward destination
