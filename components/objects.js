@@ -705,7 +705,7 @@ img_2606.backward = null;
 img_2606.forward = null;
 
 img_2706.right = img_2606;
-img_2706.left = null;
+img_2706.left = img_e45;
 img_2706.backward = null;
 img_2706.forward = null;
 

@@ -1,6 +1,5 @@
 var url = window.location;
 var queryString = url.search;
-console.log(queryString);
 var curImagePath = "/LibTour/assets/imgs/middle_passage_and_horizontal/1406.jpg";
 if (queryString === "?tube") {
     current = img_1906;

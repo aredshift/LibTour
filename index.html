@@ -16,11 +16,11 @@
   </head>
   <body>
     <a-scene>
-      <a-assets timeout="1000000">
+      <a-assets timeout="8000">
         <!-- Create our image and audio assets -->
         <img id="arrow-thumb" crossorigin="anonymous" src="/LibTour/assets/arrow.png">
         <img id="this-image" crossorigin="anonymous" src="/LibTour/assets/imgs/middle_passage_and_horizontal/1406.jpg">
-        <script src="/LibTour/components/initializeImage.js"></script>
+        <script src="/LibTour/components/initialize_image.js"></script>
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
 
       </a-assets>
@@ -57,6 +57,7 @@
           fuse="true"
           raycaster="objects: .link"></a-cursor>
       </a-entity>
+      <script src="/LibTour/components/set_init_image.js"></script>
     </a-scene>
   </body>
 </html>
