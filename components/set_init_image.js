@@ -1,5 +1,5 @@
 if (current === img_c04 || current === img_e16) {
-    document.getElementById('carmera').setAttribute("rotation", "0 90 0");
+    document.getElementById('camera').setAttribute("rotation", "0 90 0");
     console.log('r')
 }
 if (current === img_c04 || current === img_0006) {
