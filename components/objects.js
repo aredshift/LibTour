@@ -1018,5 +1018,5 @@ img_e58.forward = null;
 
 
 // Set an image to be the starting image
-var start = img_0000;
+var start = img_1406;
 var current = start;
