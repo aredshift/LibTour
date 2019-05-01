@@ -32,7 +32,7 @@ function changeImage(direction) {
 
             // Now that the fade out has completed and the new image has been insterted, fade back in
             document.querySelector('#image-current').emit('endFade');
-        }, 800);
+        }, 1000);
     }
 }
 
