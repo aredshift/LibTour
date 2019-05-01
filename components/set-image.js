@@ -17,6 +17,7 @@ function changeImage(direction) {
             var previous = current;
             // Set current to the new location 
             current = current[direction];
+            preload(current);
 
             // Make arrows visible or invisible based on the directions possible from the new location
             if(current.right == null)document.querySelector('#goRightLink').setAttribute("visible", false);
@@ -32,4 +33,11 @@ function changeImage(direction) {
             document.querySelector('#image-current').emit('endFade');
         }, 800);
     }
+}
+
+function preload(cur) {
+    if (cur['left'] != null){document.querySelector('#this-image-east').setAttribute('src', cur['left'].img);}
+    if (cur['right'] != null){document.querySelector('#this-image-west').setAttribute('src', cur['right'].img);}
+    if (cur['backward'] != null){document.querySelector('#this-image-north').setAttribute('src', cur['backward'].img)};
+    if (cur['forward'] != null){document.querySelector('#this-image-south').setAttribute('src', cur['forward'].img)};
 }
