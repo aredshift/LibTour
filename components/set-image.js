@@ -17,7 +17,8 @@ function changeImage(direction) {
             var previous = current;
             // Set current to the new location 
             current = current[direction];
-            preload(current);
+            //preload(current);
+            async(function() {preload(current)}, null);
 
             // Make arrows visible or invisible based on the directions possible from the new location
             if(current.right == null)document.querySelector('#goRightLink').setAttribute("visible", false);
@@ -40,4 +41,11 @@ function preload(cur) {
     if (cur['right'] != null){document.querySelector('#this-image-west').setAttribute('src', cur['right'].img);}
     if (cur['backward'] != null){document.querySelector('#this-image-north').setAttribute('src', cur['backward'].img)};
     if (cur['forward'] != null){document.querySelector('#this-image-south').setAttribute('src', cur['forward'].img)};
+}
+
+function async(your_function, callback) {
+    setTimeout(function() {
+        your_function();
+        if (callback) {callback();}
+    }, 3000);
 }
