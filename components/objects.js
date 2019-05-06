@@ -1,5 +1,4 @@
 // Create each image object with its respective img source
-
 var img_0000 = {img:"/LibTour/assets/imgs/south_one/0000.jpg"};
 var img_0100 = {img:"/LibTour/assets/imgs/south_one/0100.jpg"};
 var img_0200 = {img:"/LibTour/assets/imgs/south_one/0200.jpg"};
@@ -170,7 +169,6 @@ var img_e59 = {img:"/LibTour/assets/imgs/east/59.jpg"};
 var img_e60 = {img:"/LibTour/assets/imgs/east/60.jpg"};
 var img_e61 = {img:"/LibTour/assets/imgs/east/61.jpg"};
 
-//chamber
 var img_c01 = {img:"/LibTour/assets/imgs/chamber/1.jpg"};
 var img_c02 = {img:"/LibTour/assets/imgs/chamber/2.jpg"};
 var img_c03 = {img:"/LibTour/assets/imgs/chamber/3.jpg"};
@@ -319,7 +317,7 @@ img_2700.left = null;
 img_2700.backward = null;
 img_2700.forward = null;
 
-//west
+//west_one
 img_0001.right = null;
 img_0001.left = null;
 img_0001.backward = img_0002;
@@ -578,7 +576,7 @@ img_18105.left = null;
 img_18105.backward = img_1812;
 img_18105.forward = img_1809;
 
-//middle
+//middle passage and horizontal
 img_0106.right = img_0006;
 img_0106.left = img_0206;
 img_0106.backward = null;

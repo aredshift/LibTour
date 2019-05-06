@@ -17,7 +17,7 @@ function changeImage(direction) {
             var previous = current;
             // Set current to the new location 
             current = current[direction];
-            //preload(current);
+            // Preload images of next possible locations
             async(function() {preload(current)}, null);
 
             // Make arrows visible or invisible based on the directions possible from the new location
@@ -36,6 +36,7 @@ function changeImage(direction) {
     }
 }
 
+// Function called to preload images of next possible locations
 function preload(cur) {
     if (cur['left'] != null){document.querySelector('#this-image-east').setAttribute('src', cur['left'].img);}
     if (cur['right'] != null){document.querySelector('#this-image-west').setAttribute('src', cur['right'].img);}
@@ -43,6 +44,7 @@ function preload(cur) {
     if (cur['forward'] != null){document.querySelector('#this-image-south').setAttribute('src', cur['forward'].img)};
 }
 
+//Function to run preloading images asynchronously
 function async(your_function, callback) {
     setTimeout(function() {
         your_function();

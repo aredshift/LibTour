@@ -1,6 +1,9 @@
+// Retrieve requested starting location
 var url = window.location;
 var queryString = url.search;
 var curImagePath = "/LibTour/assets/imgs/middle_passage_and_horizontal/1406.jpg";
+
+// Hardcode image of the starting location
 if (queryString === "?tube") {
     current = img_1906;
     curImagePath = "/LibTour/assets/imgs/middle_passage_and_horizontal/1906.jpg";

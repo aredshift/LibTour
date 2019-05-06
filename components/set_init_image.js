@@ -1,3 +1,4 @@
+// Hardcode the starting location facing direction and the visibility of 4-direction arrows
 if (current === img_c04 || current === img_e16) {
     document.getElementById('camera').setAttribute("rotation", "0 90 0");
 }
