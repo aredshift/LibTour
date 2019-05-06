@@ -321,7 +321,7 @@ img_2700.forward = null;
 img_0001.right = null;
 img_0001.left = null;
 img_0001.backward = img_0002;
-img_0001.forward = null;
+img_0001.forward = img_0000;
 
 img_0002.right = null;
 img_0002.left = null;
