@@ -15,8 +15,16 @@ function changeImage(direction) {
 
             // Maintain a pointer to the previous location - not currently used
             var previous = current;
-            // Set current to the new location 
+            // Set current to the new location
             current = current[direction];
+
+            //Check for text box
+            if (current == img_1906) {
+                document.getElementById('texts').setAttribute('visible', true);
+            } else {
+                document.getElementById('texts').setAttribute('visible', false);
+            }
+            
             // Preload images of next possible locations
             async(function() {preload(current)}, null);
 

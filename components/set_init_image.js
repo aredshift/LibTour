@@ -9,3 +9,9 @@ if (current === img_c04 || current === img_0006 || current === img_e16) {
     document.getElementById('goForwardLink').setAttribute("visible", true);
     document.getElementById('goBackwardLink').setAttribute("visible", true);
 }
+
+if (current == img_1906) {
+    document.getElementById('texts').setAttribute('visible', true);
+} else {
+    document.getElementById('texts').setAttribute('visible', false);
+}
