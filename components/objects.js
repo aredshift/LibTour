@@ -321,7 +321,7 @@ img_2700.forward = null;
 img_0001.right = null;
 img_0001.left = null;
 img_0001.backward = img_0002;
-img_0001.forward = null;
+img_0001.forward = img_0000;
 
 img_0002.right = null;
 img_0002.left = null;
@@ -763,7 +763,7 @@ img_e15.left = null;
 img_e15.backward = img_e16;
 img_e15.forward = img_e14;
 
-img_e16.right = null;
+img_e16.right = img_e44;
 img_e16.left = img_e59;
 img_e16.backward = img_e17;
 img_e16.forward = img_e15;
