@@ -6,7 +6,15 @@ function changeImage(direction) {
     if(current[direction] != null) {
 
         // Fade image to black
-        document.querySelector('#image-current').emit('startFade');
+        //document.querySelector('#image-current').emit('startFade');
+        /*document.querySelector('#image-current').setAttribute('animation__1', {
+          property: 'color',
+          dir: 'forward',
+          dur: '800',
+          easing: 'easeInOutSine',
+          loop: 'false',
+          to: '#000'
+        }) */
 
         // Wait for fade to complete.
         setTimeout(function () {
@@ -24,7 +32,7 @@ function changeImage(direction) {
             } else {
                 document.getElementById('texts').setAttribute('visible', false);
             }
-            
+
             // Preload images of next possible locations
             async(function() {preload(current)}, null);
 
